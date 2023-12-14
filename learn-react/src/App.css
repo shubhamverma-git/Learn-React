@@ -1,21 +1,19 @@
-/* * {
-  background-color: black;
-} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .App {
-  background-color: black;
-}
-
-.container {
-  margin-top: 500px;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  background-color: skyblue;
-}
-
-.btn {
-  padding: 10px;
-  border-radius: 50px;
+  background-color: black !important;
+  height: 100vh;
   color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+input {
+  padding: 10px;
 }
